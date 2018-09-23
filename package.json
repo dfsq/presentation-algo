@@ -1,0 +1,15 @@
+{
+  "name": "1-big-o",
+  "version": "1.0.0",
+  "description": "",
+  "main": "linear.js",
+  "scripts": {
+    "test": "jest --noStackTrace --verbose",
+    "test-1": "npm run test -- 1-Big-O"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^23.6.0"
+  }
+}
