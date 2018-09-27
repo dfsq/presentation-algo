@@ -8,7 +8,7 @@ test.each([
   [[8,2,5,9,1,2,7,5,0,0,0,0,6], 72],
   [[1,5,4,2,3,4,0,3,2], 18],
 ])(
-  'Biggerst volume in %j should be %i',
+  'Biggest volume in %j should be %i',
   (a, expected) => {
     expect(maxVolume(a)).toBe(expected);
   },

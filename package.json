@@ -5,7 +5,8 @@
   "main": "linear.js",
   "scripts": {
     "test": "jest --noStackTrace --verbose",
-    "test-1": "npm run test -- 1-Big-O"
+    "test-1": "npm run test -- 1-Big-O",
+    "test-2": "npm run test -- 2-Recursion-DP"
   },
   "author": "",
   "license": "ISC",

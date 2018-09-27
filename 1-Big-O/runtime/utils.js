@@ -37,6 +37,7 @@ function getComplexityPoints (
     getRange(62),
     getRange(72),
     getRange(100),
+    getRange(401),
   ]
 
   let t0 = performance.now()
