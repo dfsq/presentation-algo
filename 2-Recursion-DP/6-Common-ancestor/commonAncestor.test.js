@@ -28,3 +28,10 @@ test('[5, 3, null, 2] and 2 and 3', () => {
   const q = tree.left
   expect(commonAncestor(tree, p, q)).toBe(tree.left)
 })
+
+test('[6, 2, 8, 0, 4, 7, 9, null, null, 3, 5] and 2 and 4', () => {
+  const tree = createTree([6, 2, 8, 0, 4, 7, 9, null, null, 3, 5])
+  const p = tree.left
+  const q = tree.left.right
+  expect(commonAncestor(tree, p, q)).toBe(tree.left)
+})

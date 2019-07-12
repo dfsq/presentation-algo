@@ -53,10 +53,10 @@ function findPath (root, node) {
  */
 
 function commonAncestor (root, p, q) {
-  return helper(root, p, q)
-}
+  if (root === null || root === p || root === q) {
+    return root
+  }
 
-function helper (root, p, q) {
   const isPinLeft = contains(root.left, p)
   const isQinLeft = contains(root.left, q)
 
